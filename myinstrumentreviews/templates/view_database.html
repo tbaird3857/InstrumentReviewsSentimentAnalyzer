@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Database</title>
+</head>
+<body>
+    <h1>Database Contents</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Instrument</th>
+            <th>Review</th>
+            <th>Sentiment</th>
+        </tr>
+        {% for review in reviews %}
+            <tr>
+                <td>{{ review.id }}</td>
+                <td>{{ review.instrument }}</td>
+                <td>{{ review.review }}</td>
+                <td>{{ review.sentiment_score }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

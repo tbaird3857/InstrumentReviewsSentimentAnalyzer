@@ -1,0 +1,69 @@
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #c0c0c0; /* Light text color */
+    font-family: 'Arial', sans-serif; /* Choose a sans-serif font */
+}
+
+h1 {
+    color: #66ccff; /* Accent color for headings */
+}
+
+a {
+    color: #66ccff; /* Link color */
+}
+
+a:hover {
+    color: #ff9933; /* Link color on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #999999; /* Lighter color for labels */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #333333; /* Dark input background color */
+    color: #c0c0c0; /* Light text color */
+    border: 1px solid #666666; /* Border color */
+}
+
+input[type="submit"] {
+    background-color: #ff9933; /* Submit button color */
+    color: #1a1a1a; /* Text color on the submit button */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc6600; /* Submit button color on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #666666; /* Border color for table cells */
+}
+
+/* Add more styles as needed */
